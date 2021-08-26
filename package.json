@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "author": "suk.",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "eslint . --ext .js,.vue,.ts",
+    "lint:fix": "eslint . --ext .js,.ts --cache --fix"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "@types/jest": "^27.0.1",
+    "chalk": "^4.1.2",
+    "eslint-config-standard-vue-ts": "^1.0.14",
+    "husky": "^7.0.2",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.3.5"
+  }
+}
