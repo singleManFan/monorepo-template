@@ -13,7 +13,7 @@
         "strict": true,
         "allowSyntheticDefaultImports": true,
         "lib": [
-            "ES2020"
+            "ESNext"
         ],
         "skipLibCheck": true
     },
