@@ -1,3 +1,3 @@
 const name: string = 'cli'
 
-console.log(name)
+console.log(name, 'suk.')
